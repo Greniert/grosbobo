@@ -1,0 +1,176 @@
+/*genera*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  background-color: #eee;
+  font-family: 'Arvo', serif;
+  padding: 5px;
+}
+
+h1{
+text-align: center;
+}
+
+h2{
+margin-bottom: 0.6em;
+}
+
+
+/*body*/
+
+
+.texte{
+  display: none;
+}
+
+.cercle {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: rgb(43, 41, 39, 0.6);
+  position: absolute;
+  display: none;
+}
+
+.cercle:hover {
+  background-color: rgb(219, 24, 30,0.7);
+}
+
+.image{
+  padding:20px;
+  position: absolute;
+  margin: 75px 34%;
+}
+.container{
+margin-left:: 50%;
+display: flex;
+}
+
+
+
+/*epaule*/
+.epaule{
+  margin-top: 5em;
+  position: absolute;
+  display: block;
+}
+
+.epaule:hover .texte{
+  display: block;
+}
+.epauletxt{
+  position: absolute;
+  left: 11em;
+  bottom: -326px;
+  width: 200px;
+  display: none;
+
+}
+
+/*coude*/
+.coude{
+  margin-top: 11em;
+  margin-left: 6em;
+  position: absolute;
+  display: block;
+}
+
+.coudetxt{
+  position: absolute;
+  left: 5em;
+  bottom: -230px;
+  width: 200px;
+  display: none;
+}
+
+.coude:hover .texte{
+  display: block;
+}
+
+
+/*mains*/
+.mains{
+  margin-top: 13.5em;
+  position: absolute;
+  display: block;
+}
+
+.mains:hover .texte{
+  display: block;
+}
+
+.mainstxt{
+  position: absolute;
+  left: 11em;
+  bottom: -190px;
+  width: 200px;
+  display: none;
+}
+
+
+/*bassin*/
+.bassin{
+  margin-top: 15em;
+  margin-left: 4.8em;
+  position: absolute;
+  display: block;
+}
+
+.bassin:hover .texte{
+  display: block;
+}
+
+.bassintxt{
+  position: absolute;
+  left: 6.1em;
+  bottom: -166px;
+  width: 200px;
+  display: none;
+}
+
+/*genoux*/
+
+.genoux{
+  margin-top: 21em;
+  margin-left: 1.4em;
+  position: absolute;
+  display: block;
+}
+
+.genoux:hover .texte{
+  display: block;
+}
+
+.genouxtxt{
+  position: absolute;
+  left: 9.6em;
+  bottom: -70px;
+  width: 200px;
+  display: none;
+}
+
+
+/*cheville*/
+.cheville{
+  margin-top: 26em;
+  margin-left: 4.2em;
+  position: absolute;
+  display: block;
+}
+
+.cheville:hover .texte{
+  display: block;
+}
+
+.chevilletxt{
+  position: absolute;
+  left: 6.7em;
+  bottom: 10px;
+  width: 200px;
+  display: none;
+}
